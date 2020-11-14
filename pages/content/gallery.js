@@ -19,7 +19,7 @@ export default function BasicRows() {
                 <p>
                     <span>Gear:</span> 
                     <ul>
-                        <li>Camera: Fujifilm XT-1 & XT-3</li>
+                        <li>Cameras: Fujifilm XT-1 & XT-3</li>
                         <li>Lens: Fujinon 18-55 2.8-4</li>
                     </ul>
                 </p>

@@ -15,8 +15,10 @@ export default function Learning() {
                 <p>
                     <span>End of 2020 and Q1 2021:</span> 
                     <ul>
-                        <li>Improve understanding and use in practice React Hooks</li>
-                        <li>Complete AZ-104 Azure Admin Cloud in Microsoft Enterprise Skills portal</li>
+                        <li>Improve understanding and use of React Hooks</li>
+                        <li>Build another NextJS app e.g. consuming an API for stocks</li>
+                        <li>Complete Azure Cloud Admin training in Microsoft Enterprise Skills</li>
+                        <li>Finish Agile Methodology course certification in edX</li>
                     </ul>
                     <span>Q2 2021 onwards:</span>
                     <br/>
