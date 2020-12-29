@@ -1,9 +1,8 @@
 import Head from 'next/head'
 import Layout, { siteTitle } from '../../components/layout'
 import utilStyles from '../../styles/utils.module.css'
+import Image from 'next/image'
 
-import Gallery from 'react-photo-gallery'
-import { photos } from '../../components/photos' 
 
 export default function BasicRows() {
     return(
@@ -12,9 +11,8 @@ export default function BasicRows() {
                 <title>{siteTitle}</title>
             </Head>
             <section className={utilStyles.headingLg}>
-                <p>Some of my favourite pictures</p>
+                <p>Some of my favourite pictures 2016-2020</p>
             </section>
-            <Gallery photos={photos} />
             <section>
                 <p>
                     <span>Gear:</span> 
@@ -26,9 +24,139 @@ export default function BasicRows() {
                 <br/>
                 <p>
                     I built this gallery page using {' '}
-                    <a href="https://neptunian.github.io/react-photo-gallery/">React Photo Gallery </a> 
+                    <a href="https://nextjs.org/docs/api-reference/next/image">NextJS 'next/image' component.</a> 
                 </p>
             </section>
+            <section>
+            <Image
+            src="/gallery/1.jpg"
+            alt="Picture of"
+            width={700}
+            height={500}
+            Layout='responsive'
+            />
+            <Image
+            src="/gallery/2.jpg"
+            alt="Picture of"
+            width={700}
+            height={500}
+            Layout='responsive'
+            />
+            <Image
+            src="/gallery/3.jpg"
+            alt="Picture of"
+            width={700}
+            height={500}
+            Layout='responsive'
+            />
+            <Image
+            src="/gallery/4.jpg"
+            alt="Picture of"
+            width={700}
+            height={500}
+            Layout='responsive'
+            />
+            <Image
+            src="/gallery/5.jpg"
+            alt="Picture of"
+            width={700}
+            height={500}
+            Layout='responsive'
+            />
+            <Image
+            src="/gallery/6.jpg"
+            alt="Picture of"
+            width={700}
+            height={500}
+            Layout='responsive'
+            />
+            <Image
+            src="/gallery/7.jpg"
+            alt="Picture of"
+            width={700}
+            height={500}
+            Layout='responsive'
+            />
+            <Image
+            src="/gallery/8.jpg"
+            alt="Picture of"
+            width={700}
+            height={900}
+            Layout='responsive'
+            />
+            <Image
+            src="/gallery/9.jpg"
+            alt="Picture of"
+            width={700}
+            height={500}
+            Layout='responsive'
+            />
+            <Image
+            src="/gallery/10.jpg"
+            alt="Picture of"
+            width={700}
+            height={900}
+            Layout='responsive'
+            />
+            <Image
+            src="/gallery/11.jpg"
+            alt="Picture of"
+            width={700}
+            height={500}
+            Layout='responsive'
+            />
+            <Image
+            src="/gallery/12.jpg"
+            alt="Picture of"
+            width={700}
+            height={500}
+            Layout='responsive'
+            />
+            <Image
+            src="/gallery/13.jpg"
+            alt="Picture of"
+            width={700}
+            height={500}
+            Layout='responsive'
+            />
+            <Image
+            src="/gallery/14.jpg"
+            alt="Picture of"
+            width={700}
+            height={900}
+            Layout='responsive'
+            />
+            <Image
+            src="/gallery/15.jpg"
+            alt="Picture of"
+            width={700}
+            height={500}
+            Layout='responsive'
+            />
+            <Image
+            src="/gallery/16.jpg"
+            alt="Picture of"
+            width={700}
+            height={500}
+            Layout='responsive'
+            />
+            <Image
+            src="/gallery/17.jpg"
+            alt="Picture of"
+            width={700}
+            height={500}
+            Layout='responsive'
+            />
+            <Image
+            src="/gallery/18.jpg"
+            alt="Picture of"
+            width={700}
+            height={500}
+            Layout='responsive'
+            />
+
+            </section>
+            
         </Layout>
     )
 }

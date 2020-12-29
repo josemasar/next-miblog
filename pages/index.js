@@ -14,15 +14,33 @@ export default function Home( {allPostsData}) {
       <section className={utilStyles.headingMd}>
         <p>Industrial engineer, amateur photographer, tennis player and technology enthusiast based in Berlin.
         </p>
-        <p>In this site you can read my <span>blog</span>, see a selection of my 
+        <p>In this site you can read my blog, see a selection of my 
         <Link href='/content/gallery'><a> pictures </a></Link>
-        and find out more about my 
-        <Link href='/content/learning_objectives'><a> learning objectives</a></Link>.
+        and find out more about my learning objectives.
         </p>
+        </section>
+        <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+        <h2 className={utilStyles.headingLg}>Blog</h2>
+        <ul className={utilStyles.list}>
+          {allPostsData.map(({ id, date, title }) => (
+            <li className={utilStyles.listItem} key={id}>
+            <Link href={`/posts/${id}`}>
+              <a>{title}</a>
+            </Link>
+            <br />
+            <small className={utilStyles.lightText}>
+              <Date dateString={date} />
+            </small>
+          </li>
+          ))}
+        </ul>
+        </section>
+        <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
+        <h2 className={utilStyles.headingLg}>My Links</h2>
         <ul>
           <li>
             <p>
-              My LinkedIn 
+              LinkedIn 
               <a href="https://www.linkedin.com/in/josemanuelsarrion/"> profile</a>
             </p>
           </li>
@@ -40,22 +58,6 @@ export default function Home( {allPostsData}) {
             <a className="mailto" href="mailto:josemanuelsarrion@gmail.com"> email</a> 
             </p>
           </li>
-        </ul>
-      </section>
-      <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className={utilStyles.headingLg}>Blog</h2>
-        <ul className={utilStyles.list}>
-          {allPostsData.map(({ id, date, title }) => (
-            <li className={utilStyles.listItem} key={id}>
-            <Link href={`/posts/${id}`}>
-              <a>{title}</a>
-            </Link>
-            <br />
-            <small className={utilStyles.lightText}>
-              <Date dateString={date} />
-            </small>
-          </li>
-          ))}
         </ul>
       </section>
       <section>
