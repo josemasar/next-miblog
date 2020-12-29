@@ -11,7 +11,7 @@ export default function BasicRows() {
                 <title>{siteTitle}</title>
             </Head>
             <section className={utilStyles.headingLg}>
-                <p>Some of my favourite pictures 2016-2020</p>
+                <p>Some of my favourite pictures 2016-2020 </p>
             </section>
             <section>
                 <p>
