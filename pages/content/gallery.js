@@ -95,7 +95,7 @@ export default function BasicRows() {
             src="/gallery/10.jpg"
             alt="Picture of"
             width={700}
-            height={900}
+            height={950}
             Layout='responsive'
             />
             <Image
