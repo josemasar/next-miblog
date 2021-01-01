@@ -85,7 +85,7 @@ export default function BasicRows() {
             Layout='responsive'
             />
             <Image
-            src="/gallery/9.jpg"
+            src="/gallery/9.jpeg"
             alt="Picture of"
             width={700}
             height={500}
@@ -120,7 +120,7 @@ export default function BasicRows() {
             Layout='responsive'
             />
             <Image
-            src="/gallery/14.jpg"
+            src="/gallery/14.jpeg"
             alt="Picture of"
             width={700}
             height={900}
