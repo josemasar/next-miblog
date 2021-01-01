@@ -57,7 +57,7 @@ export default function BasicRows() {
             Layout='responsive'
             />
             <Image
-            src="/gallery/5.jpg"
+            src="/gallery/5.jpeg"
             alt="Picture of"
             width={700}
             height={500}
@@ -71,14 +71,14 @@ export default function BasicRows() {
             Layout='responsive'
             />
             <Image
-            src="/gallery/7.jpg"
+            src="/gallery/7.jpeg"
             alt="Picture of"
             width={700}
             height={500}
             Layout='responsive'
             />
             <Image
-            src="/gallery/8.jpg"
+            src="/gallery/8.jpeg"
             alt="Picture of"
             width={700}
             height={900}
@@ -99,21 +99,21 @@ export default function BasicRows() {
             Layout='responsive'
             />
             <Image
-            src="/gallery/11.jpg"
+            src="/gallery/11.jpeg"
             alt="Picture of"
             width={700}
             height={500}
             Layout='responsive'
             />
             <Image
-            src="/gallery/12.jpg"
+            src="/gallery/12.jpeg"
             alt="Picture of"
             width={700}
             height={500}
             Layout='responsive'
             />
             <Image
-            src="/gallery/13.jpg"
+            src="/gallery/13.jpeg"
             alt="Picture of"
             width={700}
             height={500}
@@ -127,21 +127,21 @@ export default function BasicRows() {
             Layout='responsive'
             />
             <Image
-            src="/gallery/15.jpg"
+            src="/gallery/15.jpeg"
             alt="Picture of"
             width={700}
             height={500}
             Layout='responsive'
             />
             <Image
-            src="/gallery/16.jpg"
+            src="/gallery/16.jpeg"
             alt="Picture of"
             width={700}
             height={500}
             Layout='responsive'
             />
             <Image
-            src="/gallery/17.jpg"
+            src="/gallery/17.jpeg"
             alt="Picture of"
             width={700}
             height={500}
