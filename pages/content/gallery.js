@@ -29,7 +29,7 @@ export default function BasicRows() {
             </section>
             <section>
             <Image
-            src="/gallery/1.jpg"
+            src="/gallery/1.jpeg"
             alt="Picture of"
             width={700}
             height={500}
