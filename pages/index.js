@@ -51,12 +51,7 @@ export default function Home( {allPostsData}) {
             </p>
           </li>
           <li>
-            <a href="Jose_Sarrion_resume_1120.pdf">Download my resume</a>
-          </li>
-          <li>
-            <p>Write me an 
-            <a className="mailto" href="mailto:josemanuelsarrion@gmail.com"> email</a> 
-            </p>
+            <a href="Jose_Sarrion_resume_03_21_linkedin_version.pdf">Download my resume</a>
           </li>
         </ul>
       </section>
