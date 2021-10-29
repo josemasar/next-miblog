@@ -1,6 +1,6 @@
 ---
 title: 'Talent Recruiters vs Experience'
-date: '2020-09-01'
+date: '2020-09-02'
 ---
 
 The other day I had a gentle conversation with a Talent recruiter from a leading **e-commerce** company based in my city. I was asking him about what kind of position I could send my applications to based on my profile. Sometimes job titles are totally confusing and you need some inside knowledge to know what level this job is. 
