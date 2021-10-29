@@ -39,7 +39,7 @@ export default function Home( {allPostsData}) {
         <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
           <h2 className={utilStyles.headingLg}>Projects</h2>
             <ul className={utilStyles.list}>
-              <li className={utilStyles.listItem}>Comming soon</li>
+              <li className={utilStyles.listItem}>Coming soon</li>
             </ul>
         </section>
         <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
