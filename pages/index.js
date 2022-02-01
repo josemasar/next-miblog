@@ -58,7 +58,7 @@ export default function Home({ allPostsData }) {
                 <h2 className={utilStyles.headingLg}>Resume</h2>
                 <ul className={utilStyles.list}>
                     <li className={utilStyles.listItem}>
-                        <Link href="Jose_Sarrion_resume_01_22">
+                        <Link href="Jose_Sarrion_resume_01_22.pdf">
                             <a>Download</a>
                         </Link>
                     </li>
