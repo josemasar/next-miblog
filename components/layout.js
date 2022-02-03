@@ -5,17 +5,14 @@ import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
 const name = 'Josema Sarrión'
-export const siteTitle = 'Josema Sarrion'
+export const siteTitle = 'Josema Sarrion - portfolio'
 
 export default function Layout({ children, home }) {
     return (
         <div className={styles.container}>
             <Head>
                 <link rel="icon" href="/favicon.png" />
-                <meta
-                    name="description"
-                    content="Learn how to build a personal website using Next.js"
-                />
+                <meta name="description" content="Josema Sarrion - portfolio" />
                 <meta
                     property="og:image"
                     content={`https://og-image.now.sh/${encodeURI(
@@ -58,7 +55,7 @@ export default function Layout({ children, home }) {
             </header>
             <main>{children}</main>
             {!home && (
-                <div className={styles.backToHome}>
+                <div className={styles.backToHome} role="backToHome">
                     <Link href="/">
                         <a>← Back to home</a>
                     </Link>
