@@ -1,5 +1,10 @@
 .next
+.vscode
+.github
+.prettierrc.json
 node_modules
 yarn.lock
 package-lock.json
 public
+*.css
+*.md
